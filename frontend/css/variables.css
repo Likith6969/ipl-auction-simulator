@@ -1,0 +1,16 @@
+:root {
+  --bg-deep: #0a0e17;
+  --bg-panel: #121a2b;
+  --bg-card: #1a2438;
+  --bg-card-hover: #22304a;
+  --text-primary: #f4f7fb;
+  --text-secondary: #9aa8be;
+  --accent-gold: #f5c518;
+  --accent-blue: #1e90ff;
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.45);
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --font-display: "Segoe UI", system-ui, -apple-system, sans-serif;
+  --transition: 180ms ease;
+}

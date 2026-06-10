@@ -1,0 +1,21 @@
+{
+  "initial_purse": 120,
+  "retentions": {
+    "1": 18,
+    "2": 15,
+    "3": 8
+  },
+  "max_squad_size": 25,
+  "min_squad_size": 18,
+  "max_overseas_players": 8,
+  "auction_order": [
+    "Marquee Set",
+    "Capped Batsmen",
+    "Capped Bowlers",
+    "Capped All-Rounders",
+    "Capped Wicket Keepers",
+    "Uncapped Players",
+    "Overseas Players",
+    "Accelerated Auction"
+  ]
+}

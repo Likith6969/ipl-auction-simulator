@@ -1,0 +1,73 @@
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.team-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+  padding: 1.25rem;
+  border: 2px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  text-align: left;
+  transition:
+    border-color var(--transition),
+    background var(--transition),
+    transform var(--transition),
+    box-shadow var(--transition);
+}
+
+.team-card:hover:not(:disabled) {
+  background: var(--bg-card-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.team-card.is-selected {
+  border-color: var(--accent-gold);
+  box-shadow: 0 0 0 1px rgba(245, 197, 24, 0.35);
+}
+
+.team-card:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.team-card__short {
+  font-size: 1.75rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+}
+
+.team-card__name {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+}
+
+.team-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.team-actions .btn-primary {
+  min-width: 220px;
+}
+
+/* Franchise accent stripes */
+.team-card[data-team="RCB"] { border-top: 4px solid #ec1c24; }
+.team-card[data-team="CSK"] { border-top: 4px solid #ffdd00; }
+.team-card[data-team="MI"]  { border-top: 4px solid #004ba0; }
+.team-card[data-team="SRH"] { border-top: 4px solid #ff822a; }
+.team-card[data-team="KKR"] { border-top: 4px solid #3a225d; }
+.team-card[data-team="DC"]  { border-top: 4px solid #0078bc; }
+.team-card[data-team="PBKS"] { border-top: 4px solid #ed1b24; }
+.team-card[data-team="RR"]  { border-top: 4px solid #e73895; }
+.team-card[data-team="LSG"] { border-top: 4px solid #00b7f1; }
+.team-card[data-team="GT"]  { border-top: 4px solid #1c2f5a; }

@@ -1,0 +1,122 @@
+@import url("variables.css");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-display);
+  background: radial-gradient(ellipse at top, #152238 0%, var(--bg-deep) 55%);
+  color: var(--text-primary);
+  line-height: 1.5;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+.app-shell {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.app-header__badge {
+  display: inline-block;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  background: rgba(245, 197, 24, 0.12);
+  color: var(--accent-gold);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.app-header h1 {
+  margin: 0 0 0.5rem;
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.app-header p {
+  margin: 0;
+  color: var(--text-secondary);
+  max-width: 36rem;
+  margin-inline: auto;
+}
+
+.status-banner {
+  margin-top: 1.5rem;
+  padding: 0.85rem 1rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+  background: rgba(255, 255, 255, 0.03);
+  font-size: 0.95rem;
+}
+
+.status-banner--error {
+  border-color: rgba(255, 90, 90, 0.35);
+  background: rgba(255, 90, 90, 0.08);
+  color: #ffb3b3;
+}
+
+.status-banner--loading,
+.status-banner--success {
+  color: var(--text-secondary);
+}
+
+.status-banner--success {
+  border-color: rgba(90, 200, 140, 0.35);
+  background: rgba(90, 200, 140, 0.08);
+  color: #b8f0d0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.5rem;
+  border: none;
+  border-radius: var(--radius-md);
+  background: linear-gradient(135deg, var(--accent-gold), #e0a800);
+  color: #1a1200;
+  font-weight: 700;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.btn-primary:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 24px rgba(245, 197, 24, 0.25);
+}
+
+.btn-primary:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}

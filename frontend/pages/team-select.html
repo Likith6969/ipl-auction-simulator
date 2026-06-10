@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select Your Team | IPL Mega Auction</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/team-select.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="app-header">
+        <span class="app-header__badge">Mega Auction 2026</span>
+        <h1>Choose Your Franchise</h1>
+        <p>Select the IPL team you will manage. You will retain 3 players before the auction begins.</p>
+        <div id="status-banner" class="status-banner status-banner--loading hidden" role="status"></div>
+      </header>
+
+      <main>
+        <div id="team-grid" class="team-grid" aria-label="IPL teams"></div>
+
+        <div class="team-actions">
+          <button id="continue-btn" class="btn-primary" type="button" disabled>
+            Select a Team to Continue
+          </button>
+        </div>
+      </main>
+    </div>
+
+    <script type="module" src="/js/pages/team-select.js"></script>
+  </body>
+</html>

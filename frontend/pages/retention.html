@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Player Retention | IPL Mega Auction</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/retention.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="app-header">
+        <span class="app-header__badge">Retention Round</span>
+        <h1>Retain Your Players</h1>
+        <p id="team-summary">Loading session…</p>
+        <div id="status-banner" class="status-banner status-banner--loading hidden" role="status"></div>
+      </header>
+
+      <section id="summary-panel" class="summary-panel" aria-label="Purse summary"></section>
+
+      <section class="retention-layout">
+        <div class="retention-main">
+          <h2 class="section-title">Retention Slots</h2>
+          <p class="section-hint">Select players in order — 1st costs ₹18 Cr, 2nd ₹15 Cr, 3rd ₹8 Cr.</p>
+          <div id="retention-slots" class="retention-slots"></div>
+
+          <h2 class="section-title">Squad Players</h2>
+          <div id="player-grid" class="player-grid" aria-label="Eligible players"></div>
+
+          <section id="ai-retentions" class="ai-retentions hidden" aria-label="AI team retentions">
+            <h2 class="section-title">Other Franchises — AI Retentions</h2>
+            <p class="section-hint">Remaining teams retained automatically (Captain → Capped → Core squad).</p>
+            <div id="ai-teams-grid" class="ai-teams-grid"></div>
+          </section>
+        </div>
+      </section>
+
+      <footer class="retention-actions">
+        <a class="btn-secondary" href="/pages/team-select.html">Change Team</a>
+        <button id="confirm-btn" class="btn-primary" type="button" disabled>
+          Select 3 Players
+        </button>
+      </footer>
+    </div>
+
+    <script type="module" src="/js/pages/retention.js"></script>
+  </body>
+</html>

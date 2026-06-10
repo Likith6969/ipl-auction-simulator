@@ -1,0 +1,322 @@
+id,name,country,role,current_team,is_captain,auction_set,auction_order,base_price_cr,is_overseas,is_capped,player_status
+1,Rohit Sharma,India,BATTER,MI,True,1,1,2.0,False,True,active
+2,Virat Kohli,India,BATTER,RCB,True,1,2,2.0,False,True,active
+3,Jasprit Bumrah,India,BOWLER,MI,False,1,3,2.0,False,True,active
+4,Hardik Pandya,India,ALLROUNDER,MI,False,1,4,2.0,False,True,active
+5,Ravindra Jadeja,India,ALLROUNDER,RR,False,1,5,2.0,False,True,active
+6,KL Rahul,India,WK_BATTER,DC,True,1,6,2.0,False,True,active
+7,Suryakumar Yadav,India,BATTER,MI,False,1,7,2.0,False,True,active
+8,Rishabh Pant,India,WK_BATTER,LSG,True,1,8,2.0,False,True,active
+9,Shubman Gill,India,BATTER,GT,True,1,9,2.0,False,True,active
+10,Mohammed Shami,India,BOWLER,LSG,False,1,10,2.0,False,True,active
+11,Pat Cummins,Australia,BOWLER,SRH,True,1,11,2.0,True,True,active
+12,Jos Buttler,England,WK_BATTER,GT,False,1,12,2.0,True,True,active
+13,Mitchell Starc,Australia,BOWLER,DC,False,1,13,2.0,True,True,active
+14,Rashid Khan,Afghanistan,BOWLER,GT,False,1,14,2.0,True,True,active
+15,Andre Russell,West Indies,ALLROUNDER,FREE_AGENT,False,1,15,2.0,True,True,active
+16,Sunil Narine,West Indies,ALLROUNDER,KKR,False,1,16,2.0,True,True,active
+17,Kagiso Rabada,South Africa,BOWLER,GT,False,1,17,2.0,True,True,active
+18,Sam Curran,England,ALLROUNDER,FREE_AGENT,False,1,18,2.0,True,True,active
+19,Travis Head,Australia,BATTER,SRH,False,1,19,2.0,True,True,active
+20,Heinrich Klaasen,South Africa,WK_BATTER,SRH,False,1,20,2.0,True,True,active
+21,Shreyas Iyer,India,BATTER,PBKS,True,2,1,1.5,False,True,active
+22,Ruturaj Gaikwad,India,BATTER,CSK,True,2,2,1.5,False,True,active
+23,Sanju Samson,India,WK_BATTER,RR,False,2,3,1.5,False,True,active
+24,Yashasvi Jaiswal,India,BATTER,RR,True,2,4,1.5,False,True,active
+25,Ishan Kishan,India,WK_BATTER,SRH,False,2,5,1.0,False,True,active
+26,Tilak Varma,India,BATTER,MI,False,2,6,1.0,False,True,active
+27,Shikhar Dhawan,India,BATTER,FREE_AGENT,False,2,7,0.75,False,True,active
+28,Devdutt Padikkal,India,BATTER,RCB,False,2,8,0.75,False,True,active
+29,Rajat Patidar,India,BATTER,RCB,False,2,9,0.75,False,True,active
+30,Abhishek Sharma,India,BATTER,SRH,False,2,10,0.75,False,True,active
+31,Rinku Singh,India,BATTER,KKR,False,2,11,0.75,False,True,active
+32,B Sai Sudharsan,India,BATTER,GT,False,2,12,0.75,False,True,active
+33,Dhruv Jurel,India,WK_BATTER,RR,False,2,13,0.75,False,True,active
+34,Riyan Parag,India,ALLROUNDER,RR,False,2,14,0.75,False,True,active
+35,Sarfaraz Khan,India,BATTER,CSK,False,2,15,0.5,False,True,active
+36,Prithvi Shaw,India,BATTER,DC,False,2,16,0.5,False,True,active
+37,Mayank Agarwal,India,BATTER,FREE_AGENT,False,2,17,0.75,False,True,active
+38,Deepak Hooda,India,ALLROUNDER,FREE_AGENT,False,2,18,0.5,False,True,active
+39,Manish Pandey,India,BATTER,KKR,False,2,19,0.5,False,True,active
+40,Vijay Shankar,India,ALLROUNDER,FREE_AGENT,False,2,20,0.3,False,True,active
+41,Hanuma Vihari,India,BATTER,FREE_AGENT,False,2,21,0.5,False,True,active
+42,Nitish Kumar Reddy,India,ALLROUNDER,SRH,False,2,22,0.5,False,True,active
+43,Shaik Rasheed,India,BATTER,FREE_AGENT,False,2,23,0.2,False,True,active
+44,Rilee Rossouw,South Africa,BATTER,FREE_AGENT,False,2,24,1.0,True,True,active
+45,Quinton de Kock,South Africa,WK_BATTER,MI,False,2,25,1.5,True,True,active
+46,David Miller,South Africa,BATTER,DC,False,2,26,1.0,True,True,active
+47,Aiden Markram,South Africa,BATTER,LSG,False,2,27,1.0,True,True,active
+48,Glenn Maxwell,Australia,ALLROUNDER,FREE_AGENT,False,2,28,2.0,True,True,active
+49,Steve Smith,Australia,BATTER,FREE_AGENT,False,2,29,0.75,True,True,active
+50,Josh Inglis,Australia,WK_BATTER,LSG,False,2,30,0.75,True,True,active
+51,Jonny Bairstow,England,WK_BATTER,FREE_AGENT,False,2,31,1.0,True,True,active
+52,Harry Brook,England,BATTER,FREE_AGENT,False,2,32,1.5,True,True,active
+53,Phil Salt,England,WK_BATTER,RCB,False,2,33,1.0,True,True,active
+54,Nicholas Pooran,West Indies,WK_BATTER,LSG,False,2,34,1.5,True,True,active
+55,Shimron Hetmyer,West Indies,BATTER,RR,False,2,35,1.0,True,True,active
+56,Devon Conway,New Zealand,WK_BATTER,FREE_AGENT,False,2,36,1.0,True,True,active
+57,Rachin Ravindra,New Zealand,ALLROUNDER,KKR,False,2,37,1.0,True,True,active
+58,Ibrahim Zadran,Afghanistan,BATTER,FREE_AGENT,False,2,38,0.5,True,True,active
+59,Kusal Mendis,Sri Lanka,WK_BATTER,FREE_AGENT,False,2,39,0.75,True,True,active
+60,Sikandar Raza,Zimbabwe,ALLROUNDER,FREE_AGENT,False,2,40,0.75,True,True,active
+61,Bhuvneshwar Kumar,India,BOWLER,RCB,False,3,1,1.5,False,True,active
+62,Mohammed Siraj,India,BOWLER,GT,False,3,2,1.0,False,True,active
+63,Arshdeep Singh,India,BOWLER,PBKS,False,3,3,1.0,False,True,active
+64,Harshal Patel,India,BOWLER,SRH,False,3,4,1.5,False,True,active
+65,Yuzvendra Chahal,India,BOWLER,PBKS,False,3,5,1.0,False,True,active
+66,Kuldeep Yadav,India,BOWLER,DC,False,3,6,1.0,False,True,active
+67,R Ashwin,India,ALLROUNDER,FREE_AGENT,False,3,7,2.0,False,True,active
+68,Axar Patel,India,ALLROUNDER,DC,False,3,8,1.0,False,True,active
+69,Shardul Thakur,India,ALLROUNDER,MI,False,3,9,1.0,False,True,active
+70,Deepak Chahar,India,BOWLER,MI,False,3,10,1.0,False,True,active
+71,Washington Sundar,India,ALLROUNDER,GT,False,3,11,0.75,False,True,active
+72,Ravi Bishnoi,India,BOWLER,RR,False,3,12,0.75,False,True,active
+73,Avesh Khan,India,BOWLER,LSG,False,3,13,0.75,False,True,active
+74,Varun Chakaravarthy,India,BOWLER,KKR,False,3,14,0.75,False,True,active
+75,Prasidh Krishna,India,BOWLER,GT,False,3,15,0.75,False,True,active
+76,Umran Malik,India,BOWLER,KKR,False,3,16,0.75,False,True,active
+77,T Natarajan,India,BOWLER,DC,False,3,17,0.75,False,True,active
+78,Jaydev Unadkat,India,BOWLER,SRH,False,3,18,0.75,False,True,active
+79,Navdeep Saini,India,BOWLER,KKR,False,3,19,0.5,False,True,active
+80,Khaleel Ahmed,India,BOWLER,FREE_AGENT,False,3,20,0.5,False,True,active
+81,Mukesh Kumar,India,BOWLER,DC,False,3,21,0.5,False,True,active
+82,Akash Deep,India,BOWLER,FREE_AGENT,False,3,22,0.5,False,True,active
+83,Tushar Deshpande,India,BOWLER,RR,False,3,23,0.3,False,True,active
+84,Sai Kishore,India,BOWLER,GT,False,3,24,0.3,False,True,active
+85,Sandeep Sharma,India,BOWLER,RR,False,3,25,0.3,False,True,active
+86,Krishnappa Gowtham,India,ALLROUNDER,FREE_AGENT,False,3,26,0.5,False,True,active
+87,Shahbaz Ahmed,India,ALLROUNDER,LSG,False,3,27,0.3,False,True,active
+88,Piyush Chawla,India,BOWLER,FREE_AGENT,False,3,28,0.3,False,True,active
+89,Lockie Ferguson,New Zealand,BOWLER,PBKS,False,3,29,1.0,True,True,active
+90,Josh Hazlewood,Australia,BOWLER,RCB,False,3,30,1.5,True,True,active
+91,Trent Boult,New Zealand,BOWLER,MI,False,3,31,2.0,True,True,active
+92,Mark Wood,England,BOWLER,FREE_AGENT,False,3,32,1.5,True,True,active
+93,Jofra Archer,England,BOWLER,RR,False,3,33,2.0,True,True,active
+94,Anrich Nortje,South Africa,BOWLER,LSG,False,3,34,1.5,True,True,active
+95,Lungi Ngidi,South Africa,BOWLER,DC,False,3,35,1.0,True,True,active
+96,Ravichandran Ashwin,India,ALLROUNDER,FREE_AGENT,False,4,1,1.5,False,True,active
+97,Venkatesh Iyer,India,ALLROUNDER,RCB,False,4,2,0.75,False,True,active
+98,Shivam Dube,India,ALLROUNDER,CSK,False,4,3,0.75,False,True,active
+99,Krunal Pandya,India,ALLROUNDER,RCB,False,4,4,0.75,False,True,active
+100,Akshar Patel,India,ALLROUNDER,FREE_AGENT,False,4,5,1.0,False,True,active
+101,Rahul Tewatia,India,ALLROUNDER,GT,False,4,6,0.75,False,True,active
+102,Shivam Singh,India,BATTER,FREE_AGENT,False,4,7,0.2,False,False,active
+103,Mahipal Lomror,India,ALLROUNDER,MI,False,4,8,0.3,False,True,active
+104,Tanush Kotian,India,ALLROUNDER,FREE_AGENT,False,4,9,0.2,False,True,active
+105,Shahbaz Nadeem,India,ALLROUNDER,FREE_AGENT,False,4,10,0.2,False,True,active
+106,Ben Stokes,England,ALLROUNDER,FREE_AGENT,False,4,11,2.0,True,True,active
+107,Cameron Green,Australia,ALLROUNDER,KKR,False,4,12,1.5,True,True,active
+108,Marcus Stoinis,Australia,ALLROUNDER,PBKS,False,4,13,1.5,True,True,active
+109,Liam Livingstone,England,ALLROUNDER,SRH,False,4,14,1.5,True,True,active
+110,Jason Holder,West Indies,ALLROUNDER,GT,False,4,15,1.0,True,True,active
+111,Romario Shepherd,West Indies,ALLROUNDER,RCB,False,4,16,0.75,True,True,active
+112,Kyle Mayers,West Indies,ALLROUNDER,FREE_AGENT,False,4,17,0.75,True,True,active
+113,Wanindu Hasaranga,Sri Lanka,ALLROUNDER,FREE_AGENT,False,4,18,1.5,True,True,active
+114,Azmatullah Omarzai,Afghanistan,ALLROUNDER,PBKS,False,4,19,0.75,True,True,active
+115,Mohammad Nabi,Afghanistan,ALLROUNDER,FREE_AGENT,False,4,20,1.0,True,True,active
+116,Wriddhiman Saha,India,WK_BATTER,FREE_AGENT,False,5,1,0.5,False,True,active
+117,Anuj Rawat,India,WK_BATTER,GT,False,5,2,0.2,False,True,active
+118,Jitesh Sharma,India,WK_BATTER,RCB,False,5,3,0.3,False,True,active
+119,KS Bharat,India,WK_BATTER,FREE_AGENT,False,5,4,0.2,False,True,active
+120,Kona Bharat,India,WK_BATTER,FREE_AGENT,False,5,5,0.2,False,True,active
+121,Vishnu Vinod,India,WK_BATTER,PBKS,False,5,6,0.2,False,True,active
+122,Upendra Yadav,India,WK_BATTER,FREE_AGENT,False,5,7,0.2,False,True,active
+123,Saurabh Tiwary,India,WK_BATTER,FREE_AGENT,False,5,8,0.2,False,True,active
+124,Prabhsimran Singh,India,WK_BATTER,PBKS,False,5,9,0.2,False,False,active
+125,Abhishek Porel,India,WK_BATTER,DC,False,5,10,0.2,False,False,active
+126,Ayush Badoni,India,BATTER,LSG,False,6,1,0.2,False,False,active
+127,Harvik Desai,India,WK_BATTER,FREE_AGENT,False,6,2,0.2,False,False,active
+128,Raj Angad Bawa,India,ALLROUNDER,MI,False,6,3,0.2,False,False,active
+129,Shashank Singh,India,BATTER,PBKS,False,6,4,0.2,False,False,active
+130,Nehal Wadhera,India,BATTER,PBKS,False,6,5,0.2,False,False,active
+131,Shahrukh Khan,India,BATTER,GT,False,6,6,0.3,False,False,active
+132,Nishant Sindhu,India,ALLROUNDER,GT,False,6,7,0.2,False,False,active
+133,Suyash Sharma,India,BOWLER,RCB,False,6,8,0.2,False,False,active
+134,Akash Madhwal,India,BOWLER,CSK,False,6,9,0.2,False,False,active
+135,Abhinav Manohar,India,BATTER,FREE_AGENT,False,6,10,0.2,False,False,active
+136,Vivrant Sharma,India,BATTER,FREE_AGENT,False,6,11,0.2,False,False,active
+137,Arjun Tendulkar,India,BOWLER,LSG,False,6,12,0.2,False,False,active
+138,Yash Thakur,India,BOWLER,PBKS,False,6,13,0.2,False,False,active
+139,Rajan Kumar,India,BOWLER,FREE_AGENT,False,6,14,0.2,False,False,active
+140,Divyansh Saxena,India,BATTER,FREE_AGENT,False,6,15,0.2,False,False,active
+141,Kuldip Yadav,India,BOWLER,FREE_AGENT,False,6,16,0.2,False,False,active
+142,Manav Suthar,India,ALLROUNDER,GT,False,6,17,0.2,False,False,active
+143,Gurjapneet Singh,India,BOWLER,CSK,False,6,18,0.2,False,False,active
+144,Prince Yadav,India,BATTER,FREE_AGENT,False,6,19,0.2,False,False,active
+145,Swastik Chikara,India,BOWLER,FREE_AGENT,False,6,20,0.2,False,False,active
+146,Arshad Khan,India,BOWLER,FREE_AGENT,False,6,21,0.2,False,False,active
+147,Harsh Dubey,India,BOWLER,SRH,False,6,22,0.2,False,False,active
+148,Kumar Kushagra,India,WK_BATTER,GT,False,6,23,0.2,False,False,active
+149,Pulkit Narang,India,BOWLER,FREE_AGENT,False,6,24,0.2,False,False,active
+150,Mohit Rathee,India,BATTER,FREE_AGENT,False,6,25,0.2,False,False,active
+151,Sachin Baby,India,BATTER,FREE_AGENT,False,6,26,0.2,False,False,active
+152,Saurabh Kumar,India,BOWLER,FREE_AGENT,False,6,27,0.2,False,False,active
+153,Yash Dayal,India,BOWLER,RCB,False,6,28,0.2,False,False,active
+154,Akash Singh,India,BOWLER,FREE_AGENT,False,6,29,0.2,False,False,active
+155,N Jagadeesan,India,WK_BATTER,FREE_AGENT,False,6,30,0.2,False,False,active
+156,Ravisrinivasan Sai Kishore,India,ALLROUNDER,FREE_AGENT,False,6,31,0.3,False,True,active
+157,Rahul Tripathi,India,BATTER,KKR,False,6,32,0.5,False,True,active
+158,Vaibhav Suryavanshi,India,BATTER,RR,False,6,33,0.2,False,False,active
+159,Shubhman Agarwal,India,BATTER,FREE_AGENT,False,6,34,0.2,False,False,active
+160,Musheer Khan,India,BATTER,PBKS,False,6,35,0.2,False,False,active
+161,Arafat Khan,India,BOWLER,FREE_AGENT,False,6,36,0.2,False,False,active
+162,Tanmay Agarwal,India,BATTER,FREE_AGENT,False,6,37,0.2,False,False,active
+163,Baba Indrajith,India,BATTER,FREE_AGENT,False,6,38,0.2,False,False,active
+164,Biplab Samantray,India,WK_BATTER,FREE_AGENT,False,6,39,0.2,False,False,active
+165,Ishan Porel,India,BOWLER,FREE_AGENT,False,6,40,0.2,False,False,active
+166,Sudip Sharma,India,BOWLER,FREE_AGENT,False,6,41,0.2,False,False,active
+167,Mohit Avasthi,India,BOWLER,FREE_AGENT,False,6,42,0.2,False,False,active
+168,Vidwath Kaverappa,India,BOWLER,FREE_AGENT,False,6,43,0.2,False,False,active
+169,Ashutosh Sharma,India,ALLROUNDER,DC,False,6,44,0.2,False,False,active
+170,Anmolpreet Singh,India,BATTER,FREE_AGENT,False,6,45,0.2,False,True,active
+171,Kamlesh Nagarkoti,India,BOWLER,FREE_AGENT,False,6,46,0.3,False,False,active
+172,Naman Dhir,India,ALLROUNDER,MI,False,6,47,0.2,False,False,active
+173,Priyank Panchal,India,BATTER,FREE_AGENT,False,6,48,0.3,False,True,active
+174,Upthaan Pandey,India,BOWLER,FREE_AGENT,False,6,49,0.2,False,False,active
+175,Matthew Wade,Australia,WK_BATTER,FREE_AGENT,False,7,1,0.75,True,True,active
+176,Matthew Short,Australia,BATTER,CSK,False,7,2,0.75,True,True,active
+177,Adam Zampa,Australia,BOWLER,FREE_AGENT,False,7,3,1.0,True,True,active
+178,Nathan Ellis,Australia,BOWLER,FREE_AGENT,False,7,4,0.75,True,True,active
+179,Spencer Johnson,Australia,BOWLER,CSK,False,7,5,0.75,True,True,active
+180,Tim David,Singapore,BATTER,RCB,False,7,6,1.5,True,True,active
+181,Joe Root,England,BATTER,FREE_AGENT,False,7,7,0.75,True,True,active
+182,Liam Dawson,England,ALLROUNDER,FREE_AGENT,False,7,8,0.3,True,True,active
+183,Rehan Ahmed,England,BOWLER,DC,False,7,9,0.5,True,True,active
+184,Will Jacks,England,ALLROUNDER,MI,False,7,10,0.75,True,True,active
+185,Jamie Overton,England,ALLROUNDER,FREE_AGENT,False,7,11,0.3,True,True,active
+186,Marco Jansen,South Africa,ALLROUNDER,PBKS,False,7,12,1.0,True,True,active
+187,Reeza Hendricks,South Africa,BATTER,FREE_AGENT,False,7,13,0.75,True,True,active
+188,Ryan Rickelton,South Africa,WK_BATTER,MI,False,7,14,0.75,True,True,active
+189,Gerald Coetzee,South Africa,BOWLER,SRH,False,7,15,0.75,True,True,active
+190,Nandre Burger,South Africa,BOWLER,RR,False,7,16,0.5,True,True,active
+191,Wiaan Mulder,South Africa,ALLROUNDER,FREE_AGENT,False,7,17,0.5,True,True,active
+192,Tristan Stubbs,South Africa,BATTER,DC,False,7,18,0.5,True,True,active
+193,Martin Guptill,New Zealand,BATTER,FREE_AGENT,False,7,19,0.75,True,True,active
+194,Daryl Mitchell,New Zealand,ALLROUNDER,FREE_AGENT,False,7,20,0.75,True,True,active
+195,Glenn Phillips,New Zealand,WK_BATTER,GT,False,7,21,0.75,True,True,active
+196,Mitchell Santner,New Zealand,ALLROUNDER,FREE_AGENT,False,7,22,0.75,True,True,active
+197,Tim Southee,New Zealand,BOWLER,FREE_AGENT,False,7,23,0.75,True,True,active
+198,Kyle Jamieson,New Zealand,ALLROUNDER,DC,False,7,24,1.0,True,True,active
+199,Mark Chapman,New Zealand,BATTER,FREE_AGENT,False,7,25,0.3,True,True,active
+200,Alzarri Joseph,West Indies,BOWLER,FREE_AGENT,False,7,26,1.0,True,True,active
+201,Akeal Hosein,West Indies,BOWLER,CSK,False,7,27,0.5,True,True,active
+202,Shai Hope,West Indies,WK_BATTER,FREE_AGENT,False,7,28,0.5,True,True,active
+203,Odean Smith,West Indies,ALLROUNDER,FREE_AGENT,False,7,29,0.5,True,True,active
+204,Johnson Charles,West Indies,WK_BATTER,FREE_AGENT,False,7,30,0.3,True,True,active
+205,Gudakesh Motie,West Indies,BOWLER,FREE_AGENT,False,7,31,0.5,True,True,active
+206,Roston Chase,West Indies,ALLROUNDER,FREE_AGENT,False,7,32,0.5,True,True,active
+207,Rovman Powell,West Indies,BATTER,KKR,False,7,33,0.75,True,True,active
+208,Mujeeb ur Rahman,Afghanistan,BOWLER,FREE_AGENT,False,7,34,1.0,True,True,active
+209,Fazalhaq Farooqi,Afghanistan,BOWLER,FREE_AGENT,False,7,35,1.0,True,True,active
+210,Noor Ahmad,Afghanistan,BOWLER,CSK,False,7,36,0.75,True,True,active
+211,Gulbadin Naib,Afghanistan,ALLROUNDER,FREE_AGENT,False,7,37,0.3,True,True,active
+212,Matheesha Pathirana,Sri Lanka,BOWLER,FREE_AGENT,False,7,38,1.0,True,True,active
+213,Maheesh Theekshana,Sri Lanka,BOWLER,FREE_AGENT,False,7,39,0.75,True,True,active
+214,Dushmantha Chameera,Sri Lanka,BOWLER,DC,False,7,40,0.75,True,True,active
+215,Charith Asalanka,Sri Lanka,BATTER,FREE_AGENT,False,7,41,0.75,True,True,active
+216,Pathum Nissanka,Sri Lanka,BATTER,DC,False,7,42,0.5,True,True,active
+217,Dilshan Madushanka,Sri Lanka,BOWLER,SRH,False,7,43,0.75,True,True,active
+218,Mustafizur Rahman,Bangladesh,BOWLER,FREE_AGENT,False,7,44,1.0,True,True,active
+219,Taskin Ahmed,Bangladesh,BOWLER,FREE_AGENT,False,7,45,0.75,True,True,active
+220,Litton Das,Bangladesh,WK_BATTER,FREE_AGENT,False,7,46,0.5,True,True,active
+221,Towhid Hridoy,Bangladesh,BATTER,FREE_AGENT,False,7,47,0.5,True,True,active
+222,Shoriful Islam,Bangladesh,BOWLER,FREE_AGENT,False,7,48,0.5,True,True,active
+223,Blessing Muzarabani,Zimbabwe,BOWLER,KKR,False,7,49,0.3,True,True,active
+224,Sean Williams,Zimbabwe,ALLROUNDER,FREE_AGENT,False,7,50,0.2,True,True,active
+225,Saurabh Netravalkar,USA,BOWLER,FREE_AGENT,False,7,51,0.3,True,False,active
+226,Aaron Jones,USA,BATTER,FREE_AGENT,False,7,52,0.2,True,False,active
+227,Lorcan Tucker,Ireland,WK_BATTER,FREE_AGENT,False,7,53,0.2,True,True,active
+228,Mark Adair,Ireland,ALLROUNDER,FREE_AGENT,False,7,54,0.2,True,True,active
+229,Richie Berrington,Scotland,ALLROUNDER,FREE_AGENT,False,7,55,0.2,True,True,active
+230,Max O'Dowd,Netherlands,BATTER,FREE_AGENT,False,7,56,0.2,True,True,active
+231,Joshua Da Silva,West Indies,WK_BATTER,FREE_AGENT,False,7,57,0.5,True,True,active
+232,Tszungo Chakabva,Zimbabwe,WK_BATTER,FREE_AGENT,False,7,58,0.2,True,True,active
+233,Sandeep Warrier,India,BOWLER,FREE_AGENT,False,8,1,0.2,False,True,active
+234,Siddharth Kaul,India,BOWLER,FREE_AGENT,False,8,2,0.3,False,True,active
+235,Dhawal Kulkarni,India,BOWLER,FREE_AGENT,False,8,3,0.3,False,True,active
+236,Basil Thampi,India,BOWLER,FREE_AGENT,False,8,4,0.2,False,True,active
+237,Simarjeet Singh,India,BOWLER,FREE_AGENT,False,8,5,0.2,False,True,active
+238,Manimaran Siddharth,India,BOWLER,FREE_AGENT,False,8,6,0.2,False,False,active
+239,Gurkeerat Singh,India,ALLROUNDER,FREE_AGENT,False,8,7,0.2,False,True,active
+240,Rishi Dhawan,India,ALLROUNDER,FREE_AGENT,False,8,8,0.2,False,True,active
+241,Bipul Sharma,India,ALLROUNDER,FREE_AGENT,False,8,9,0.2,False,True,active
+242,Jalaj Saxena,India,ALLROUNDER,FREE_AGENT,False,8,10,0.2,False,True,active
+243,Himanshu Sharma,India,ALLROUNDER,FREE_AGENT,False,8,11,0.2,False,True,active
+244,Shams Mulani,India,ALLROUNDER,FREE_AGENT,False,8,12,0.2,False,True,active
+245,Yash Dhull,India,BATTER,FREE_AGENT,False,8,13,0.2,False,True,active
+246,Hari Nair,India,WK_BATTER,FREE_AGENT,False,8,14,0.2,False,False,active
+247,NS Naik,India,WK_BATTER,FREE_AGENT,False,8,15,0.2,False,False,active
+248,Sheldon Jackson,India,WK_BATTER,FREE_AGENT,False,8,16,0.2,False,True,active
+249,Rishi Pant,India,WK_BATTER,FREE_AGENT,False,8,17,0.2,False,False,active
+250,Baba Aparajith,India,ALLROUNDER,FREE_AGENT,False,8,18,0.2,False,True,active
+251,Kedar Jadhav,India,ALLROUNDER,FREE_AGENT,False,8,19,0.2,False,True,active
+252,Vyshak Vijaykumar,India,BOWLER,PBKS,False,8,20,0.2,False,False,active
+253,Ronan Rogers,Ireland,BATTER,FREE_AGENT,False,8,21,0.2,True,False,active
+254,Lizaad Williams,South Africa,BOWLER,FREE_AGENT,False,8,22,0.2,True,True,active
+255,George Linde,South Africa,ALLROUNDER,LSG,False,8,23,0.2,True,True,active
+256,Keshav Maharaj,South Africa,BOWLER,MI,False,8,24,0.5,True,True,active
+257,Matt Henry,New Zealand,BOWLER,CSK,False,8,25,0.5,True,True,active
+258,Finn Allen,New Zealand,WK_BATTER,KKR,False,8,26,0.5,True,True,active
+259,Evin Lewis,West Indies,BATTER,FREE_AGENT,False,8,27,0.5,True,True,active
+260,Obed McCoy,West Indies,BOWLER,FREE_AGENT,False,8,28,0.3,True,True,active
+261,Shamar Joseph,West Indies,BOWLER,FREE_AGENT,False,8,29,0.5,True,True,active
+262,Mehidy Hasan Miraz,Bangladesh,ALLROUNDER,FREE_AGENT,False,8,30,0.5,True,True,active
+263,Munim Shahriar,Bangladesh,BATTER,FREE_AGENT,False,8,31,0.3,True,False,active
+264,George Munsey,Scotland,BATTER,FREE_AGENT,False,8,32,0.2,True,True,active
+265,Ryan ten Doeschate,Netherlands,ALLROUNDER,FREE_AGENT,False,8,33,0.2,True,True,active
+266,Paul Stirling,Ireland,BATTER,FREE_AGENT,False,8,34,0.3,True,True,active
+267,Curtis Campher,Ireland,ALLROUNDER,FREE_AGENT,False,8,35,0.2,True,True,active
+268,Jordan Cox,England,WK_BATTER,RCB,False,7,59,0.75,True,True,active
+269,Swapnil Singh,India,ALLROUNDER,RCB,False,6,50,0.2,False,False,active
+270,Jacob Bethell,England,ALLROUNDER,RCB,False,7,60,0.75,True,False,active
+271,Satvik Deswal,India,ALLROUNDER,RCB,False,6,51,0.2,False,False,active
+272,Mangesh Yadav,India,ALLROUNDER,RCB,False,6,52,0.2,False,False,active
+273,Vicky Ostwal,India,ALLROUNDER,RCB,False,6,53,0.2,False,False,active
+274,Vihaan Malhotra,India,ALLROUNDER,RCB,False,6,54,0.2,False,False,active
+275,Kanishk Chouhan,India,ALLROUNDER,RCB,False,6,55,0.2,False,False,active
+276,Rasikh Dar,India,BOWLER,RCB,False,6,56,0.2,False,False,active
+277,Abhinandan Singh,India,BOWLER,RCB,False,6,57,0.2,False,False,active
+278,Jacob Duffy,New Zealand,BOWLER,RCB,False,7,61,0.2,True,True,active
+279,Richard Gleeson,England,BOWLER,RCB,False,7,62,0.2,True,True,active
+280,Aniket Verma,India,BATTER,SRH,False,6,58,0.2,False,False,active
+281,Smaran Ravichandran,India,BATTER,SRH,False,6,59,0.2,False,False,active
+282,Salil Arora,India,WK_BATTER,SRH,False,6,60,0.2,False,False,active
+283,Kamindu Mendis,Sri Lanka,ALLROUNDER,SRH,False,7,63,1.0,True,True,active
+284,Shivang Kumar,India,ALLROUNDER,SRH,False,6,61,0.2,False,False,active
+285,Zeeshan Ansari,India,BOWLER,SRH,False,6,62,0.2,False,False,active
+286,MS Dhoni,India,WK_BATTER,CSK,False,5,11,2.0,False,True,active
+287,Dewald Brevis,South Africa,BATTER,CSK,False,7,64,0.5,True,True,active
+288,Kartik Sharma,India,WK_BATTER,CSK,False,6,63,0.2,False,False,active
+289,Urvil Patel,India,WK_BATTER,CSK,False,6,64,0.2,False,False,active
+290,Aman Khan,India,ALLROUNDER,CSK,False,6,65,0.2,False,False,active
+291,Zak Foulkes,England,ALLROUNDER,CSK,False,7,65,0.2,True,False,active
+292,Anshul Kamboj,India,BOWLER,CSK,False,6,66,0.2,False,False,active
+293,Mukesh Choudhary,India,BOWLER,CSK,False,6,67,0.2,False,True,active
+294,Shreyas Gopal,India,BOWLER,CSK,False,8,36,0.2,False,True,active
+295,Rahul Chahar,India,BOWLER,CSK,False,3,36,0.5,False,True,active
+296,Karun Nair,India,BATTER,DC,False,2,41,0.3,False,True,active
+297,Sahil Parakh,India,BATTER,DC,False,6,68,0.2,False,False,active
+299,Sameer Rizvi,India,ALLROUNDER,DC,False,6,69,0.2,False,False,active
+300,Vipraj Nigam,India,ALLROUNDER,DC,False,6,70,0.2,False,False,active
+301,Ajay Mandal,India,ALLROUNDER,DC,False,6,71,0.2,False,False,active
+302,Tripurana Vijay,India,ALLROUNDER,DC,False,6,72,0.2,False,False,active
+303,Madhav Tiwari,India,ALLROUNDER,DC,False,6,73,0.2,False,False,active
+304,Nitish Rana,India,BATTER,DC,False,2,42,0.5,False,True,active
+305,Auqib Nabi,India,BOWLER,DC,False,6,74,0.2,False,False,active
+306,Connor Esterhuizen,South Africa,BATTER,GT,False,7,66,0.5,True,True,active
+307,Sai Sudharsan,India,BATTER,GT,False,2,43,0.75,False,True,active
+308,Mohd. Arshad Khan,India,ALLROUNDER,GT,False,6,75,0.2,False,False,active
+309,Jayant Yadav,India,ALLROUNDER,GT,False,4,21,0.3,False,True,active
+310,Ajinkya Rahane,India,BATTER,KKR,True,2,44,0.75,False,True,active
+311,Angkrish Raghuvanshi,India,BATTER,KKR,False,6,76,0.2,False,False,active
+312,Ramandeep Singh,India,ALLROUNDER,KKR,False,6,77,0.2,False,False,active
+313,Mitchell Marsh,Australia,ALLROUNDER,LSG,False,7,67,1.5,True,True,active
+314,Abdul Samad,India,ALLROUNDER,LSG,False,6,78,0.2,False,True,active
+315,Arshin Kulkarni,India,ALLROUNDER,LSG,False,6,79,0.2,False,False,active
+316,Mayank Yadav,India,BOWLER,LSG,False,6,80,0.2,False,False,active
+317,Harpreet Brar,India,ALLROUNDER,PBKS,False,6,81,0.2,False,True,active
+318,Shubham Dubey,India,BATTER,RR,False,6,82,0.2,False,False,active
+319,Donovan Ferreira,South Africa,WK_BATTER,RR,False,7,68,0.5,True,True,active
+320,Dasun Shanaka,Sri Lanka,ALLROUNDER,RR,False,7,69,0.5,True,True,active
+321,Kwena Maphaka,South Africa,BOWLER,RR,False,7,70,0.3,True,False,active
+322,Adam Milne,New Zealand,BOWLER,RR,False,7,71,0.3,True,True,active
