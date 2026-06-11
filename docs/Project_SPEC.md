@@ -664,3 +664,167 @@ Always respect purse limits.
 Always prioritize realism over simplicity.
 
 This file is the permanent source of truth for the entire project.
+
+# PROJECT STATUS
+
+This project is actively under development.
+
+The AI assistant must first understand the project state before generating any code.
+
+DO NOT automatically continue development after reading this file.
+
+DO NOT automatically refactor files.
+
+DO NOT automatically redesign architecture.
+
+DO NOT generate code unless explicitly instructed.
+
+Your first responsibility is to understand the current project state and wait for further instructions from the user.
+
+Treat this file as the source of truth.
+
+---
+
+# CURRENT PROJECT COMPLETION STATUS
+
+Completed:
+
+✓ Project Architecture Design
+
+✓ Project Folder Structure
+
+✓ Dataset Finalization
+
+✓ players.csv
+
+✓ teams.csv
+
+✓ auction_config.json
+
+✓ Team Selection Module
+
+✓ Retention Module
+
+✓ AI Retention Module
+
+✓ Auction Initialization Module
+
+✓ Git Repository Setup
+
+✓ GitHub Repository Setup
+
+✓ PROJECT_SPEC.md Creation
+
+Partially Completed:
+
+△ Database Integration (verify status)
+
+△ SQLAlchemy Models (verify status)
+
+△ Backend API Integration (verify status)
+
+Not Yet Implemented:
+
+✗ RTM System
+
+✗ Auction Engine
+
+✗ Bid Engine
+
+✗ Countdown System
+
+✗ Final Call System
+
+✗ AI Bidding System
+
+✗ Auction Room UI
+
+✗ Premium Dashboard UI
+
+✗ RTM Modal UI
+
+✗ My Squad Dashboard
+
+✗ Accelerated Auction
+
+✗ WebSockets
+
+✗ Team Strength System
+
+✗ Final Testing
+
+✗ Bug Fixing
+
+✗ Deployment
+
+---
+
+# NEXT DEVELOPMENT STEP
+
+The next planned module is:
+
+RTM SYSTEM
+
+However:
+
+DO NOT begin implementing RTM automatically.
+
+Wait for user instructions.
+
+---
+
+# AI ASSISTANT INSTRUCTIONS
+
+After reading this document:
+
+1. Read the entire codebase.
+2. Compare implementation against PROJECT_SPEC.md.
+3. Determine current project state.
+4. Identify completed and incomplete modules.
+5. Report findings to the user.
+
+DO NOT generate code.
+
+DO NOT modify files.
+
+DO NOT create files.
+
+DO NOT refactor anything.
+
+Wait for explicit instructions.
+
+Example valid workflow:
+
+User:
+"Implement RTM System"
+
+Then proceed.
+
+User:
+"Review Auction Engine"
+
+Then proceed.
+
+User:
+"Generate Bid Engine"
+
+Then proceed.
+
+Otherwise only analyze and report.
+
+---
+
+# CONTEXT RECOVERY INSTRUCTIONS
+
+If this is a fresh chat:
+
+1. Read PROJECT_SPEC.md completely.
+2. Read current codebase.
+3. Build understanding of project.
+4. Determine current status.
+5. Wait for instructions.
+
+Never assume development should continue automatically.
+
+
+
