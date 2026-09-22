@@ -56,6 +56,12 @@ class AuctionState(Base):
     team_states: Mapped[dict[str, Any]] = mapped_column(JSON, nullable=False, default=dict)
     # Ordered auction lots with retained players removed from the pool
     auction_pool: Mapped[dict[str, Any]] = mapped_column(JSON, nullable=False, default=dict)
+    # Lightweight runtime state for the auction engine state machine.
+    # Contains: public_run_state, speed_profile, is_accelerated, pause,
+    # countdown, rtm_window, internal_phase, timing_ms.
+    # Does NOT duplicate persistent data (player, purse, bids) — those live in
+    # auction_pool.lots[current_lot_index] and team_states.
+    live_state: Mapped[dict[str, Any]] = mapped_column(JSON, nullable=False, default=dict)
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True),
         nullable=False,

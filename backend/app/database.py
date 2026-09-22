@@ -49,6 +49,16 @@ def _apply_sqlite_migrations() -> None:
             )
         logger.info("Applied migration: auction_states.auction_pool")
 
+    if "live_state" not in columns:
+        with engine.begin() as connection:
+            connection.execute(
+                text(
+                    "ALTER TABLE auction_states "
+                    "ADD COLUMN live_state JSON NOT NULL DEFAULT '{}'"
+                )
+            )
+        logger.info("Applied migration: auction_states.live_state")
+
 
 def init_db(*, seed: bool = True, force_seed: bool = False) -> None:
     """

@@ -7,7 +7,8 @@ from sqlalchemy.orm import Session
 from sqlalchemy.orm.attributes import flag_modified
 
 from app.domain.auction_queue import build_auction_pool, first_pending_lot
-from app.domain.enums import AuctionPhase, HistoryEventType
+from app.domain.auction_timing import build_initial_live_state
+from app.domain.enums import LIVE_STATE_VERSION, AuctionPhase, HistoryEventType
 from app.models.auction_history import AuctionHistory
 from app.models.auction_state import AuctionState
 from app.models.player import Player
@@ -84,6 +85,7 @@ class AuctionInitializationService:
         self._initialize_auction_pool(auction_state, retained_ids)
 
         auction_state.phase = AuctionPhase.AUCTION
+        self._initialize_live_state(auction_state)
         self.db.add(
             AuctionHistory(
                 auction_state_id=auction_state.id,
@@ -359,3 +361,20 @@ class AuctionInitializationService:
             team_purses=team_purses,
             already_initialized=already_initialized,
         )
+
+    # -----------------------------------------------------------------------
+    # Live-state helpers
+    # -----------------------------------------------------------------------
+
+    def _initialize_live_state(self, auction_state: AuctionState) -> None:
+        """Set the canonical READY live_state on *auction_state* if not already set.
+
+        Idempotent: skips initialization when live_state is already at the
+        current LIVE_STATE_VERSION.  This makes it safe to call even when
+        re-entering an already-initialized auction.
+        """
+        existing = auction_state.live_state or {}
+        if existing.get("version") == LIVE_STATE_VERSION:
+            return  # already initialized — do not overwrite
+        auction_state.live_state = build_initial_live_state()
+        flag_modified(auction_state, "live_state")
